@@ -41,7 +41,6 @@ jobs:
         issue_title: ZAP Scan Baseline Report
         fail_action: false
         allow_issue_writing: true
-        artifact_name: zap-scan-report
 
     - name: SonarCloud Scan
       uses: SonarSource/sonarcloud-github-action@master
